@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #3C2A21;
+    color: #e9c7af;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 25px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.columbus-imagem{
+    width: 25%;
+}
+
+#Columbus{
+    background-image: linear-gradient(#91563b, #a05f41,#b98d6e,#e9c7af);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Columbus-div-conteudo{
+    width: 35%;
+}
+
+.Columbus-titulo{
+    padding: 24px 0;
+}
+#Doces{
+    background-image: linear-gradient(#e9c7af,#D5CEA3, #E5E5CB);
+    color: #1A120B;
+    padding: 24px 0;
+}
+.brigadeiro-imagem{
+    width: 120px;
+}
+.beijinho-imagem{
+    width: 120px;
+}
+.brigadeiro2-imagem{
+    width: 120px;
+}
+.bolo-imagem{
+    width: 120px;
+}
+.torta-imagem{
+    width: 120px;
+}
+.brownie-imagem{
+    width: 120px;
+}
+.pao-de-mel-imagem{
+    width: 120px;
+}
+.cookie-imagem{
+    width: 120px;
+}
+.alfajor-imagem{
+    width: 120px;
+}
+.trufa-imagem{
+    width: 120px;
+}
+.cesta-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.doces-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.Doces-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.doces-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color:#1A120B;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 80px;
+    padding: 12px 0;
+}
